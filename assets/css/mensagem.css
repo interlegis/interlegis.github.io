@@ -1,0 +1,23 @@
+
+body {
+    font-family: "latolight", Helvetica, sans-serif;
+    font-size: 1.3em;
+    line-height: 1.6em;
+    background-color: #e8e7e7;
+}
+
+@media screen and (orientation: landscape) {
+    body {
+        margin-left: 20%;
+        margin-right:20%;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    body {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 1.5em;
+        line-height: 2em;
+    }
+}
